@@ -2,7 +2,7 @@ from setuptools import setup, find_packages
 
 setup(
     name="rufus-web-scraper",
-    version="1.0.0",
+    version="1.0.3",
     description="A Python package for web scraping and parsing using Selenium, BeautifulSoup, and Llama LLM.",
     long_description=open("README.md").read(),
     long_description_content_type="text/markdown",

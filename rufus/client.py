@@ -5,11 +5,7 @@ from dotenv import load_dotenv
 
 class RufusClient:
     def __init__(self):
-        # Load environment variables (e.g., for WebDriver path)
-        load_dotenv()
-        self.webdriver_path = os.getenv("SBR_WEBDRIVER")
-        if not self.webdriver_path:
-            raise ValueError("SBR_WEBDRIVER is not set in the .env file.")
+        pass
 
     def scrape(self, url: str, prompt: str, scraper_key:str):
         """
