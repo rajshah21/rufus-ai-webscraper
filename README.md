@@ -27,7 +27,7 @@ To enable the Selenium crawler, you need to create a Remote API key for crawling
   1) Visit https://brightdata.com/.
   2) Sign up for a free account.
   3) Navigate to Proxies and Scraping > Click Add > Select Scraping Browser.
-  4) Generate a web-crawling API key and save it.
+  4) Generate a web-crawling API key and save the Selenium API.
   5) Pass the API key directly in the ".scrape" function.
 
 ### Download the Llama Model Locally
