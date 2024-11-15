@@ -20,25 +20,30 @@ Install Rufus Web Scraper with pip:
 pip install rufus-web-scraper
 ```
 
-## Setting Up before Use
+## Setting Up Before Use
+### Selenium Crawler API Key
+To enable the Selenium crawler, you need to create a Remote API key for crawling websites:
 
-1) Selenium Crawler API key:
-Create a Selenium Remote API key to crawl the website by visiting this site: https://brightdata.com/
-Sign-up and create free account.
-Navigate to "Proxies and Scraping"> click "Add" > Select "Scraping Browser" to generate a web-crawling API key and save it.
+  1) Visit https://brightdata.com/.
+  2) Sign up for a free account.
+  3) Navigate to Proxies and Scraping > Click Add > Select Scraping Browser.
+  4) Generate a web-crawling API key and save it.
+  5) Pass the API key directly in the ".scrape" function.
 
-2) Download Llama model to run locally:
-Visit https://ollama.com/download and download OLlama for your pc.
-Run the downloaded setup file
-Open Command Prompt or Terminal and run "ollama" command.
-Download Llama3.1 model locally
-```bash 
-ollama pull llama3.1
-```
-Run the Downloaded Llama model
-```bash
-ollama run llama3.1
-```
+### Download the Llama Model Locally
+To use the Llama model for parsing:
+
+  1) Visit https://ollama.com/download.
+  2) Download the Ollama setup for your platform and install it.
+  3) Open Command Prompt (Windows) or Terminal (Mac/Linux).
+  4) Run the following command to ensure Ollama is installed:
+  ```bash
+  ollama
+  ```
+  5) Download the Llama3.1 model locally:
+  ```bash
+  ollama pull llama3.1
+  ```
 
 ## Example Usage
 
