@@ -1,0 +1,25 @@
+# Ignore everything by default
+*
+
+# Allow Python and Markdown files
+!*.py
+!*.md
+
+# Allow the root .gitignore file
+!.gitignore
+
+# Ignore compiled Python files
+*.pyc
+__pycache__/
+
+# Ignore build and distribution directories
+build/
+dist/
+*.egg-info/
+
+# Ignore environment files
+.env
+
+# Ignore system files
+.DS_Store
+Thumbs.db
