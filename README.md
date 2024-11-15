@@ -17,7 +17,7 @@
 Install Rufus Web Scraper with pip:
 
 ```bash
-pip install rufus-web-scraper
+pip install rufus-web-scraper==1.0.2
 ```
 
 ## Setting Up Before Use
@@ -48,8 +48,7 @@ To use the Llama model for parsing:
 ## Example Usage
 
 ```bash
-import rufus-web-scraper
-from rufus-web-scraper import RufusClient
+from rufus import RufusClient
 
 client = RufusClient()
 documents = client.scrape(url,scraper_key,prompt)
